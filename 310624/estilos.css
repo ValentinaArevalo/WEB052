@@ -1,0 +1,11 @@
+/* Hoja de estilo */
+main{
+    padding: 8rem;
+    border: 10px rgb(251, 173, 186) solid;
+    margin: 5rem;
+    /* border-radius: 2rem; */
+}
+img{
+    object-fit: cover;
+    width: 100%;
+}
