@@ -9,7 +9,7 @@
  ·parrafo {
     line-height:1.5;
     color: #070000
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow'. Arial, sans-serif; 
+    font-family: "Montserrat", sans-serif; 
 }
 */
 /*Css grid, mi reticula*/
@@ -22,28 +22,28 @@ body {
 header {
     background-color: rgb(255, 168, 216);
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 4;
 }
 main { 
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
 }
 footer {
-    background-color: blueviolet;
+    background-color: rgb(255, 157, 211);
     padding: 2rem;
     grid-column-start: 1;
     grid-column-end: 4;
 }
 /*Estilos tipogràficos*/
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: italic;
     font-size: 5rem;
     padding-bottom: 1rem;
 }
 p {
-    font-family: "Six Caps", sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight: 200;
     font-style: normal;
     font-size: 1.2rem;
@@ -67,15 +67,15 @@ nav {
 }
 header li {
     list-style: none;
-    display: inline-block;
+    display: inline;
     padding: 0 1 rem;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: "Grey Qo", cursive;
     font-weight: 600;
     font-style: italic;
 }
 header a {
-    text-decoration: line-through;
-    color: aquamarine;
+    text-decoration:none;
+    color: rgb(236, 71, 203);
     transition: all .03s ease 0s;
 }
 header a:hover {
