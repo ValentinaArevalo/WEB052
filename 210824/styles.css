@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://unpkg.com/@uiw/reset.css@1.0.6/reset.css');
+/*Estilos tipográficos*/
+
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  
+  p, li {
+    line-height: 1.6;
+  }
+  figcaption {
+    font-size: .6rem;
+  }
+
+  h1, h2, h3, ul, p, figure{
+    padding: 1rem;
+  }
+  /*Columnas*/
+
+  .columnas {
+    columns: 3 400px;
+  }
+  /*Imagenes*/
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .clip-me {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  .clip-otro {
+    width: 50%;
+    float: left;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    shape-outside: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+  }
